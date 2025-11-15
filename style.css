@@ -1,0 +1,147 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #f5f5f5;
+  color: #2f1e1e;
+  line-height: 1.6;
+}
+
+.page {
+  width: 90%;
+  max-width: 1100px;
+  margin: auto;
+  padding: 20px 0;
+}
+
+/* HEADER */
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.fa-brands,.fa-solid{
+  color: #ffffff;
+  padding-right: 15px;
+}
+
+
+.logo {
+  width: 45px;
+  height: 45px;
+  background: black;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #222;
+  font-weight: 500;
+}
+
+.nav a:hover {
+  color: #007bff;
+}
+
+/* HERO SECTION */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 0;
+}
+
+.hero-left {
+  max-width: 600px;
+}
+
+.hero h1 {
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+.accent {
+  color: #007bff;
+}
+
+.lead {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  background: #007bff;
+  color: white;
+  padding: 12px 25px;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.profile-img {
+  width: 280px;
+  border-radius: 50%;
+  border: 4px solid #104174;
+}
+
+/* CARD SECTIONS */
+.card {
+  background: #396dba;
+  color: whitesmoke;
+  padding: 35px;
+  margin: 40px 0;
+  border-radius: 12px;
+  box-shadow: 0px 4px 20px rgba(0,0,0,0.08);
+}
+
+.card h2 {
+  margin-bottom: 15px;
+}
+
+/* SKILLS */
+.skills-list {
+  display: flex;
+  gap: 20px;
+}
+
+.skill {
+  padding: 12px 20px;
+  background: #f1f2f4;
+  color: rgb(13, 12, 12);
+  border-radius: 8px;
+  font-weight: 500;
+}
+
+/* CONTACT */
+.contact-list {
+  list-style: none;
+  line-height: 2;
+}
+
+/* FOOTER */
+.site-footer {
+  text-align: center;
+  margin-top: 40px;
+  padding: 20px 0;
+  color: #555;
+}
